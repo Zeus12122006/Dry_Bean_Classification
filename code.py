@@ -111,7 +111,7 @@ def prepare_and_train_models(df):
         models = {
             'Logistic Regression': LogisticRegression(max_iter=1000, random_state=42),
             'Decision Tree': DecisionTreeClassifier(random_state=42),
-            'KNN': KNeighborsClassifier(n_neighbors=5)
+            'KNN': KNeighborsClassifier(n_neighbors=7)
         }
         
         results = {}
