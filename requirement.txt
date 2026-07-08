@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 scikit-learn
-matplotlib
+matplotlib.pyplot
 seaborn
 time
